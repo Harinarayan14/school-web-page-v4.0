@@ -1,12 +1,14 @@
-html {
+
+	html {
 	margin: 100;
 	padding: 100;
+	background:#aaaaff
 	}
 body { 
 	font: 75% georgia, sans-serif;
 	line-height: 2;
 	color:blue; 
-	background:white; 
+	background:#aaaaff; 
 	margin: 100; 
 	padding: 10;
 	}
@@ -18,7 +20,6 @@ p {
     font: 75% georgia, sans-serif;
     font-size: x-large;
     color: black;
-    background: #fffffe;
 	}
 h1 {
 	text-align: center;
