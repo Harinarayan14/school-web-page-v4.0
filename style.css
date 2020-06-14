@@ -44,12 +44,12 @@ h3 {
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
-    color:black;
+    color: darkcyan;
 	}
 a:visited { 
 	font-weight: bold; 
 	text-decoration: underline; 
-	color: black;
+    color: blue;
 	}
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
@@ -57,7 +57,15 @@ a:hover, a:focus, a:active {
     }
 .url{
      display: flex;
-     justify-content: space-around;
-     flex-direction: row;
+     justify-content: space-evenly;
+	 flex-direction: row;
      
-    }
+	}
+	b{
+		color: blue;
+	}
+	hr{
+		width: 100%;
+		size: 30px;
+		border-color: #5555ff;
+	}
